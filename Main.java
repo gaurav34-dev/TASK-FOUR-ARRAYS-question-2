@@ -1,5 +1,3 @@
-//Java Program to illustrate the use of declaration, instantiation   
-//and initialization of Java array in a single line  
 import java.util.Scanner;  
 class Main{  
 public static void main(String args[]){  
@@ -20,9 +18,9 @@ array[i]=sc.nextInt();
 }  
 int temp;
   int i;
-  for(i=0;i<n-1;i++)
+  for(i=0;i<n;i++)
     {
-      for(int j=i+1;j<n-1;j++)
+      for(int j=i+1;j<n;j++)
       {  if(array[i]<array[j])
       {
         temp=array[i];
@@ -40,9 +38,9 @@ int temp;
         }
   System.out.println("the second largest element is "+ array[i]);
   
-  //for(i=0;i<a.length;i++)
+  //for(i=0;i<n;i++)
     //{
-      //System.out.println(a[i]);
+      //System.out.print(array[i]);
     //}
   //System.out.println("the second highest number is "+ a[i]);
 }
