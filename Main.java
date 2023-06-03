@@ -18,9 +18,10 @@ array[i]=sc.nextInt();
 }  
 int temp;
   int i;
+  int j;
   for(i=0;i<n;i++)
     {
-      for(int j=i+1;j<n;j++)
+      for(j=i+1;j<n;j++)
       {  if(array[i]<array[j])
       {
         temp=array[i];
@@ -32,16 +33,14 @@ int temp;
       }
        if(i==1)
        {  
-         break;
-         
+           
+       
+        break;
+       
        }
         }
-  System.out.println("the second largest element is "+ array[i]);
+  System.out.println("the second highest element is "+ array[i]);
   
-  //for(i=0;i<n;i++)
-    //{
-      //System.out.print(array[i]);
-    //}
-  //System.out.println("the second highest number is "+ a[i]);
 }
 }
+ 
